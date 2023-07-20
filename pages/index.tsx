@@ -55,7 +55,7 @@ University, equipped with a
 strong foundation in computer
 systems, software development,
 web development, & UX Design." />
-        <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+        <meta property="og:image" content="./assets/images/meta.webp" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://castroryanaustin.vercel.app/" />
         <meta property="twitter:title" content="Ryan Austin S. Castro | Front-end Web Developer | UX/UI Designer" />
@@ -65,7 +65,7 @@ University, equipped with a
 strong foundation in computer
 systems, software development,
 web development, & UX Design." />
-        <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+        <meta property="twitter:image" content="./assets/images/meta.webp" />
       </Head>
       <div className='w-full'>
         <div id="dropDownTab" className='box-grid bg-white top-0 fixed z-40 transition-all duration-1000 translate-y-[-120dvh] lg:h-[33rem] h-[24rem] w-screen' onScroll={handleScroll}>
