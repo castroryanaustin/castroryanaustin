@@ -39,7 +39,7 @@ export default function Home() {
     <>
       <Head>
         <title>Ryan Austin S. Castro | Front-end Web Developer | UX/UI Designer</title>
-        <meta name="title" content="Ryan Austin S. Castro | Front-end Web Developer | UX/UI Designer" />
+        <meta name="title" content="Ryan Austin Castro | Front-end Web Developer | UX/UI Designer" />
         <meta name="description" content="A computer engineering
 graduate from Bulacan State
 University, equipped with a
@@ -48,24 +48,24 @@ systems, software development,
 web development, & UX Design." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://castroryanaustin.vercel.app/" />
-        <meta property="og:title" content="Ryan Austin S. Castro | Front-end Web Developer | UX/UI Designer" />
+        <meta property="og:title" content="Ryan Austin Castro | Front-end Web Developer | UX/UI Designer" />
         <meta property="og:description" content="A computer engineering
 graduate from Bulacan State
 University, equipped with a
 strong foundation in computer
 systems, software development,
 web development, & UX Design." />
-        <meta property="og:image" content="./assets/images/meta.webp" />
+        <meta property="og:image" content="/assets/images/meta.webp" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://castroryanaustin.vercel.app/" />
-        <meta property="twitter:title" content="Ryan Austin S. Castro | Front-end Web Developer | UX/UI Designer" />
+        <meta property="twitter:title" content="Ryan Austin Castro | Front-end Web Developer | UX/UI Designer" />
         <meta property="twitter:description" content="A computer engineering
 graduate from Bulacan State
 University, equipped with a
 strong foundation in computer
 systems, software development,
 web development, & UX Design." />
-        <meta property="twitter:image" content="./assets/images/meta.webp" />
+        <meta property="twitter:image" content="/assets/images/meta.webp" />
       </Head>
       <div className='w-full'>
         <div id="dropDownTab" className='box-grid bg-white top-0 fixed z-40 transition-all duration-1000 translate-y-[-120dvh] lg:h-[33rem] h-[24rem] w-screen' onScroll={handleScroll}>
