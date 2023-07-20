@@ -2,26 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html,
+body {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer components {
+  .dotted-grid {
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #583928 1.26px, rgba(212, 204, 160) 1px);
+  }
+  .dotted-grid-w {
+    background-size: 40px 40px;
+    background-image: radial-gradient(circle, #583928 1.25px, rgba(255, 255, 255) 1px);
+  }
+
+  .box-grid {
+    background-size: 40px 40px;
+    background-image: linear-gradient(to right, #d3d3d3 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+  }
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("/assets/fonts/aeonik.woff") format("woff");
+}
+
+@font-face {
+  font-family: "DMSans";
+  src: url("/assets/fonts/dmsans.woff") format("woff");
+}
+
+@font-face {
+  font-family: "PPMoriSB";
+  src: url("/assets/fonts/ppmorisb.woff") format("woff");
 }
