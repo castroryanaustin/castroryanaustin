@@ -37,49 +37,78 @@ export default function Home() {
 
   return (
     <>
-    <Head><title>Front-end Web Developer | UX/UI Designer</title></Head>
-    <div className='w-full'>
-      <div id="dropDownTab" className='box-grid bg-white top-0 fixed z-40 transition-all duration-1000 translate-y-[-120dvh] lg:h-[33rem] h-[24rem] w-screen' onScroll={handleScroll}>
-        <Backdrop />
+      <Head>
+        <title>Ryan Austin S. Castro | Front-end Web Developer | UX/UI Designer</title>
+        <meta name="title" content="Ryan Austin S. Castro | Front-end Web Developer | UX/UI Designer" />
+        <meta name="description" content="A computer engineering
+graduate from Bulacan State
+University, equipped with a
+strong foundation in computer
+systems, software development,
+web development, & UX Design." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://castroryanaustin.vercel.app/" />
+        <meta property="og:title" content="Ryan Austin S. Castro | Front-end Web Developer | UX/UI Designer" />
+        <meta property="og:description" content="A computer engineering
+graduate from Bulacan State
+University, equipped with a
+strong foundation in computer
+systems, software development,
+web development, & UX Design." />
+        <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://castroryanaustin.vercel.app/" />
+        <meta property="twitter:title" content="Ryan Austin S. Castro | Front-end Web Developer | UX/UI Designer" />
+        <meta property="twitter:description" content="A computer engineering
+graduate from Bulacan State
+University, equipped with a
+strong foundation in computer
+systems, software development,
+web development, & UX Design." />
+        <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+      </Head>
+      <div className='w-full'>
+        <div id="dropDownTab" className='box-grid bg-white top-0 fixed z-40 transition-all duration-1000 translate-y-[-120dvh] lg:h-[33rem] h-[24rem] w-screen' onScroll={handleScroll}>
+          <Backdrop />
+        </div>
+        <div id="dropDown" className='top-0 fixed z-50 transition-all duration-700 translate-y-[-120dvh] opacity-100' onScroll={handleScroll}>
+          <Dropdown />
+        </div>
+        <Navbar />
+        <div id="homePage">
+          <Banner />
+        </div>
+        <Workboard />
+        <Toolkit />
+        <Marquee />
+        <div id='workPage'>
+          <Projects />
+        </div>
+        <div id="aboutPage" className='top-0 fixed z-20 transition-all duration-700 translate-y-[120dvh] opacity-100'>
+          <About />
+        </div>
+        <div id="contactPage" className='bottom-0 fixed z-20 transition-all duration-700 translate-y-[120dvh] opacity-100'>
+          <Contact />
+        </div>
+        <div id="backinit" className='top-0 fixed z-30 transition-all duration-300 delay-75 translate-x-[100%] opacity-100 bg-[#d4cca0]'>
+          <Backinit />
+        </div>
+        <div id="backlast" className='top-0 fixed z-20 transition-all duration-300 translate-x-[100%] opacity-100'>
+          <Backlast />
+        </div>
+        <div id="projectOne" className='top-0 fixed z-40 transition-all duration-700 delay-150 translate-x-[100%] opacity-100'>
+          <One />
+        </div>
+        <div id="projectTwo" className='top-0 fixed z-40 transition-all duration-700 delay-150 translate-x-[100%] opacity-100'>
+          <Two />
+        </div>
+        <div id="projectThree" className='top-0 fixed z-40 transition-all duration-700 delay-150 translate-x-[100%] opacity-100'>
+          <Three />
+        </div>
+        <div id="projectFour" className='top-0 fixed z-40 transition-all duration-700 delay-150 translate-x-[100%] opacity-100'>
+          <Four />
+        </div>
       </div>
-      <div id="dropDown" className='top-0 fixed z-50 transition-all duration-700 translate-y-[-120dvh] opacity-100' onScroll={handleScroll}>
-        <Dropdown />
-      </div>
-      <Navbar />
-      <div id="homePage">
-        <Banner />
-      </div>
-      <Workboard />
-      <Toolkit />
-      <Marquee />
-      <div id='workPage'>
-        <Projects />
-      </div>
-      <div id="aboutPage" className='top-0 fixed z-20 transition-all duration-700 translate-y-[120dvh] opacity-100'>
-        <About />
-      </div>
-      <div id="contactPage" className='bottom-0 fixed z-20 transition-all duration-700 translate-y-[120dvh] opacity-100'>
-        <Contact />
-      </div>
-      <div id="backinit" className='top-0 fixed z-30 transition-all duration-300 delay-75 translate-x-[100%] opacity-100 bg-[#d4cca0]'>
-        <Backinit />
-      </div>
-      <div id="backlast" className='top-0 fixed z-20 transition-all duration-300 translate-x-[100%] opacity-100'>
-        <Backlast />
-      </div>
-      <div id="projectOne" className='top-0 fixed z-40 transition-all duration-700 delay-150 translate-x-[100%] opacity-100'>
-        <One />
-      </div>
-      <div id="projectTwo" className='top-0 fixed z-40 transition-all duration-700 delay-150 translate-x-[100%] opacity-100'>
-        <Two />
-      </div>
-      <div id="projectThree" className='top-0 fixed z-40 transition-all duration-700 delay-150 translate-x-[100%] opacity-100'>
-        <Three />
-      </div>
-      <div id="projectFour" className='top-0 fixed z-40 transition-all duration-700 delay-150 translate-x-[100%] opacity-100'>
-        <Four />
-      </div>
-    </div>
     </>
   )
 }
