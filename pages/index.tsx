@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ryan Austin S. Castro | Front-end Web Developer | UX/UI Designer</title>
+        <title>Ryan Austin Castro | Front-end Web Developer | UX/UI Designer</title>
         <meta name="title" content="Ryan Austin Castro | Front-end Web Developer | UX/UI Designer" />
         <meta name="description" content="A computer engineering
 graduate from Bulacan State
