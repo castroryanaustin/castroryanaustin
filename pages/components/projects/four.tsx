@@ -19,7 +19,7 @@ export default function Four() {
             <div className="grid place-content-center font-Aeonik font-extrabold text-[100px] lg:text-start text-center text-[#583928] w-full h-full">
                 <h1 className="text-[130px] leading-none">404:</h1>
                 <h1 className="leading-none">Oops, sorry !!</h1>
-                <p className="lg:text-4xl text-2xl text-[#141414] lg:text-end text-center pt-5">// We are working on it. //</p>
+                <p className="lg:text-4xl text-2xl text-[#141414] lg:text-end text-center pt-5">// This project is work in progress. //</p>
             </div>
         </div>
     )
